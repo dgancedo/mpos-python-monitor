@@ -9,11 +9,9 @@ Some sample images:
 
 Text output
 
-[textoutput]: https://github.com/dgancedo/mpos-python-monitor/blob/master/images/text_output.png
-[textoutput][]
+![TextOutput](https://github.com/dgancedo/mpos-python-monitor/blob/master/images/text_output.png?raw=true "Text Output")
+
 
 HTML Output
 
-
-[htmloutput]: https://github.com/dgancedo/mpos-python-monitor/blob/master/images/html_output.png
-[htmloutput][]
+![HTMLOutput](https://github.com/dgancedo/mpos-python-monitor/blob/master/images/html_output.png?raw=true "HTML Output")
