@@ -36,7 +36,6 @@ else:
     normal = ""
     blue = ""
 
-
 data = getmposapi(url,key,userid,"getuserbalance")
 confirmedbalance = data['getuserbalance']['data']['confirmed'].split('.')[0] + "." + data['getuserbalance']['data']['confirmed'].split('.')[1][0:2]
 unconfirmedbalance = data['getuserbalance']['data']['unconfirmed'].split('.')[0] + "." + data['getuserbalance']['data']['unconfirmed'].split('.')[1][0:2]
@@ -51,7 +50,6 @@ else:
     
 sys.stdout.write(message)
 if html != 1: drawline(message)
-
 
 data = getmposapi(url,key,userid,"getuserworkers")
 if html == 1:
@@ -92,7 +90,6 @@ if showtotals == 1:
         sys.stdout.write("<table><tr><td>Total Hashrate:</td><td>" + userhashrate  + "</td><td>Total Sharerate:</td><td>" + usersharerate  + "</td></tr></table>" )
     else:
         drawline(message)
-        sys.stdout.write("Total hashrate: " + userhashrate  + " Total Sharerate: " + usersharerate )
+        sys.stdout.write("Total hashrate: " + userhashrate  + " Total Sharerate: " + usersharerate + "\n")
 if html == 1:
-    sys.stdout.write("</table></body></html>")
-                        
+    sys.stdout.write("</table></body></html>")          
