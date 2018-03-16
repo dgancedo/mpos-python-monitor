@@ -9,10 +9,10 @@ Some sample images:
 
 Text output
 
-<img src images/text_output.png>
+[textoutput]: https://raw.githubusercontent.com/dgancedo/mpos-python-monitor/images/text_output.png?sanitize=true
 
 HTML Output
 
 
-<img src images/html_output.png>
+[htmloutput]: https://raw.githubusercontent.com/dgancedo/mpos-python-monitor/images/html_output.png?sanitize=true
 
