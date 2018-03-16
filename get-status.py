@@ -85,7 +85,7 @@ for worker in data['getuserworkers']['data']:
 
 if showtotals == 1:
     userhashrate = str(float("{0:.2f}".format(getmposapi(url,key,userid,"getuserhashrate")['getuserhashrate']['data'])))
-    usersharerate = str(float("{0:.2f}".format(getmposapi(url,key,userid,"getuserhashrate")['getuserhashrate']['data'])))
+    usersharerate = str(float("{0:.2f}".format(getmposapi(url,key,userid,"getusersharerate")['getusersharerate']['data'])))
     if html == 1:
         sys.stdout.write("<table><tr><td>Total Hashrate:</td><td>" + userhashrate  + "</td><td>Total Sharerate:</td><td>" + usersharerate  + "</td></tr></table>" )
     else:
